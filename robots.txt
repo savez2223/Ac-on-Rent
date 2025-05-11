@@ -1,0 +1,18 @@
+# Allow all bots to crawl the site
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /private/
+
+# Allow Google to crawl everything
+User-agent: Googlebot
+Allow: /
+
+# Specify the location of the sitemap
+Sitemap: https://aconrentgurugram.com/sitemap.xml
+
+# Block specific bots (if needed)
+User-agent: BadBot
+Disallow: /

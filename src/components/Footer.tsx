@@ -72,22 +72,22 @@ export const Footer = () => {
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
                 <a
-                  href="mailto:AcOnRentGurugram24@gmail.com"
+                  href="mailto:AcOnRentGurugram2000@gmail.com"
                   className="hover:text-[#0097b2]"
                 >
-                  AcOnRentGurugram24@gmail.com
+                  AcOnRentGurugram2000@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <PhoneCall className="h-4 w-4" />
-                <a href="tel:+918744982935" className="hover:text-[#0097b2]">
-                  8744982935
+                <a href="tel:+919389678954" className="hover:text-[#0097b2]">
+                  9389678954
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                Shop- 5&6, Hariram Complex, Main Branch Rd, Badshahpur, Sector
-                70, Gurugram, Haryana 122103
+                Badshahpur Office Teekali-Akhlimpur Road, City- Badshahpur,
+                Haryana, Pin - 122101
               </li>
             </ul>
           </div>

@@ -131,19 +131,19 @@ const ContactUs: React.FC = () => {
               <li>
                 <strong>Phone:</strong>{" "}
                 <a
-                  href="tel:+918744982935"
+                  href="tel:+919389678954"
                   className="hover:text-primary transition-colors"
                 >
-                  +91 8744982935
+                  +91 9389678954
                 </a>
               </li>
               <li>
                 <strong>Email:</strong>{" "}
                 <a
-                  href="mailto:AcOnRentGurugram24@gmail.com"
+                  href="mailto:AcOnRentGurugram2000@gmail.com"
                   className="hover:text-primary transition-colors"
                 >
-                  AcOnRentGurugram24@gmail.com
+                  AcOnRentGurugram2000@gmail.com
                 </a>
               </li>
               <li>
@@ -154,8 +154,8 @@ const ContactUs: React.FC = () => {
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
                 >
-                  Shop- 5&6, Hariram Complex, Main Branch Rd, Badshahpur, Sector
-                  70, Gurugram, Haryana 122103
+                  Badshahpur Office Teekali-Akhlimpur Road, City- Badshahpur,
+                  Haryana, Pin - 122101
                 </a>
               </li>
             </ul>
@@ -163,7 +163,7 @@ const ContactUs: React.FC = () => {
             {/* Map */}
             <div className="mt-8 w-full h-64">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d764.1161480713519!2d77.03043793139277!3d28.39472805333506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d237cc8650911%3A0xfc965420f437bf49!2sHariram%20complex%20supermarket!5e1!3m2!1sen!2sin!4v1737865670505!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d178953.51504293858!2d76.82526561809514!3d28.422501871014596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d582e38859%3A0x2cf5fe8e5c64b1e!2sGurugram%2C%20Haryana!5e1!3m2!1sen!2sin!4v1746998692394!5m2!1sen!2sin"
                 className="w-full h-full"
                 style={{ border: 0 }}
                 allowFullScreen={true}

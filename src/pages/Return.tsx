@@ -130,13 +130,13 @@ const ProductReturn = () => {
           </p>
           <div className="flex justify-center gap-4">
             <a
-              href="tel:+918744982935"
+              href="tel:+919389678954"
               className="text-primary hover:underline"
             >
               📞 Call Now
             </a>
             <a
-              href="https://wa.me/+918744982935"
+              href="https://wa.me/+919389678954"
               className="text-green-500 hover:underline"
             >
               WhatsApp

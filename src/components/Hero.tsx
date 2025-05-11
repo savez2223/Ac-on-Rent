@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import image from  "@/assets/main-image.jpg";
+import image from "@/assets/hero-image.webp";
 
 export const Hero = () => {
   const navigate = useNavigate();

@@ -44,9 +44,9 @@ export const Navbar = () => {
             asChild
             className="bg-white border-gray-200"
           >
-            <a href="tel:+918744982935" className="flex items-center gap-2">
+            <a href="tel:+919389678954" className="flex items-center gap-2">
               <Phone className="h-4 w-4" />
-              <span>+91-8744982935</span>
+              <span>+91-9389678954</span>
             </a>
           </Button>
 
@@ -55,7 +55,7 @@ export const Navbar = () => {
             className="bg-green-600 hover:bg-green-700 text-white border-none"
           >
             <a
-              href="https://wa.me/+918744982935"
+              href="https://wa.me/+919389678954"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2"
@@ -102,11 +102,11 @@ export const Navbar = () => {
                   className="w-full justify-start bg-white border-gray-200"
                 >
                   <a
-                    href="tel:+918744982935"
+                    href="tel:+919389678954"
                     className="flex items-center gap-2"
                   >
                     <Phone className="h-4 w-4" />
-                    <span>+91-8744982935</span>
+                    <span>+91-9389678954</span>
                   </a>
                 </Button>
 
@@ -115,7 +115,7 @@ export const Navbar = () => {
                   className="w-full bg-green-600 hover:bg-green-700 text-white border-none"
                 >
                   <a
-                    href="https://wa.me/+918744982935"
+                    href="https://wa.me/+919389678954"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 justify-center"

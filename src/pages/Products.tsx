@@ -71,7 +71,9 @@ const Products = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-4xl font-bold mb-8 text-center">Our Products</h1>
+            <h1 className="text-4xl font-bold mb-8 text-center">
+              Our Products
+            </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {products.map((product) => (
                 <motion.div
@@ -88,9 +90,15 @@ const Products = () => {
                         className="w-full h-48 object-contain"
                       />
                       <div className="p-6">
-                        <h2 className="text-2xl font-semibold mb-2">{product.name}</h2>
-                        <p className="text-gray-600 mb-4">{product.description}</p>
-                        <p className="text-primary font-semibold">{product.price}</p>
+                        <h2 className="text-2xl font-semibold mb-2">
+                          {product.name}
+                        </h2>
+                        <p className="text-gray-600 mb-4">
+                          {product.description}
+                        </p>
+                        <p className="text-primary font-semibold">
+                          {product.price}
+                        </p>
                       </div>
                     </CardContent>
                     <CardFooter className="p-6 pt-0">

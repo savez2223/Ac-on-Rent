@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import Split from "../assets/split ac 1.jpg";
-import WindowAC from "../assets/window ac 1.jpg";
+import Split from "../assets/Product Image/Split AC.png";
+import WindowAC from "../assets/Product Image/Window Ac.png";
 import RoomHeater from "../assets/Product Image/Room Heater2.png";
 import Fridge from "../assets/Product Image/Fridge1.png";
 import WashingMachine from "../assets/Product Image/Washing Mac.png";
@@ -13,37 +13,43 @@ const products = [
   {
     url: "window-ac",
     name: "Window AC on Rent",
-    description: "Advanced cooling technology with smart temperature control and energy optimization",
+    description:
+      "Advanced cooling technology with smart temperature control and energy optimization",
     image: WindowAC,
   },
   {
-     url: "split-ac",
+    url: "split-ac",
     name: "Split AC on Rent",
-    description: "Premium comfort with intelligent climate control and whisper-quiet operation",
+    description:
+      "Premium comfort with intelligent climate control and whisper-quiet operation",
     image: Split,
   },
   {
     url: "room-heater",
     name: "Room Heater on Rent",
-    description: "Advanced heating solutions with precision temperature control and safety features - No Oxygen burning ",
+    description:
+      "Advanced heating solutions with precision temperature control and safety features - No Oxygen burning ",
     image: RoomHeater,
   },
   {
     url: "geyser",
     name: "Geyser on Rent",
-    description: "Smart water heating system with temperature precision and energy efficiency",
+    description:
+      "Smart water heating system with temperature precision and energy efficiency",
     image: Geyser,
   },
   {
     url: "washing-machine",
     name: "Washing Machine on Rent",
-    description: "Advanced laundry technology with intelligent wash programs and fabric care",
+    description:
+      "Advanced laundry technology with intelligent wash programs and fabric care",
     image: WashingMachine,
   },
   {
     url: "Refrigerator",
     name: "Refrigerator on Rent",
-    description: "Smart cooling technology with advanced temperature management system",
+    description:
+      "Smart cooling technology with advanced temperature management system",
     image: Fridge,
   },
 ];
@@ -62,7 +68,8 @@ export const FeaturedProducts = () => {
             Premium Appliances Collection
           </h2>
           <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
-            Discover our selection of high-performance appliances designed for modern living
+            Discover our selection of high-performance appliances designed for
+            modern living
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -90,9 +97,13 @@ export const FeaturedProducts = () => {
                   <p className="text-gray-600 text-sm leading-relaxed">
                     {product.description}
                   </p>
-                  <Button 
+                  <Button
                     className="w-full mt-6 py-2.5 text-sm font-medium bg-primary hover:bg-primary/90 text-white rounded-md transition-colors"
-                    onClick={() => navigate(`/rent/${product.url.toLowerCase().replace(' ', '-')}`)}
+                    onClick={() =>
+                      navigate(
+                        `/rent/${product.url.toLowerCase().replace(" ", "-")}`
+                      )
+                    }
                   >
                     Rent Now
                   </Button>

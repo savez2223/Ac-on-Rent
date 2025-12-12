@@ -122,48 +122,12 @@ export const Footer = () => {
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8">
           {/* Social Media Links */}
-          <div className="flex justify-center space-x-6 text-gray-400">
-            <a
-              href="https://www.facebook.com/profile.php?id=61567274079370"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#0097b2]"
-            >
-              <Facebook className="h-5 w-5" />
-            </a>
-            <a
-              href="https://instagram.com/zuridox"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#0097b2]"
-            >
-              <Instagram className="h-5 w-5" />
-            </a>
-            <a
-              href="https://www.linkedin.com/company/zuridox/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#0097b2]"
-            >
-              <Linkedin className="h-5 w-5" />
-            </a>
-          </div>
 
           <div className="flex items-center justify-center text-gray-400 mt-4">
             <Copyright className="h-4 w-4 mr-2" />
             <p>{currentYear} Ac On Rent Gurugram. All rights reserved.</p>
           </div>
-          <div className="mt-4 text-center text-gray-400">
-            <p>
-              Website designed by{" "}
-              <a
-                href="https://www.zuridox.com"
-                className="text-[#0097b2] hover:underline"
-              >
-                Zuridox
-              </a>
-            </p>
-          </div>
+          <div className="mt-4 text-center text-gray-400"></div>
         </div>
       </div>
     </footer>
